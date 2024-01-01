@@ -2,22 +2,19 @@
 If the given value is an integer, return its opposite value, otherwise return -1 */
 
 function getOpposite(num) {
-	///Your code Starts here 
-	
-	if (typeof num) {
-		if (num % 1 === 0) {
-			
-			return num * -1;
-		} else {
-			return -1;
-		}
-	} else {
-		return -1;
-	}
-	
-	
-	
-	///Your code Ends here
+  ///Your code Starts here
+
+  if (typeof num === "number") {
+    if (num % 1 === 0) {
+      return num * -1;
+    } else {
+      return -1;
+    }
+  } else {
+    return -1;
+  }
+
+  ///Your code Ends here
 }
 /*
 Lines For TestCase
